@@ -1,0 +1,7 @@
+<h1>Questões</h1>
+<a href="/admin/questoes/nova">Criar nova questão</a>
+<hr>
+
+{% for q in questoes %}
+<p><strong>{{ q.pergunta }}</strong> — {{ q.topico }}</p>
+{% endfor %}

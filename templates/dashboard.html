@@ -1,0 +1,9 @@
+<h1>Dashboard</h1>
+<p>Total de questões: {{ total }}</p>
+
+<h3>Por tópico:</h3>
+<ul>
+{% for t, qtd in por_topico.items() %}
+<li>{{ t }} — {{ qtd }}</li>
+{% endfor %}
+</ul>
