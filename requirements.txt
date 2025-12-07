@@ -1,5 +1,4 @@
 fastapi
-uvicorn[standard]
-SQLAlchemy
-asyncpg
-pydantic
+uvicorn
+jinja2
+python-multipart
